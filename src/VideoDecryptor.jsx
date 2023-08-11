@@ -53,7 +53,7 @@ const VideoDecryptor = () => {
       <h1>Client-Side Video Decryption and Playback</h1>
       <input type="file" onChange={handleFileChange} />
       <input
-        type="text"
+        type="password"
         placeholder="Enter Decryption Key"
         value={decryptionKey}
         onChange={(event) => setDecryptionKey(event.target.value)}
